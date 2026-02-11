@@ -19,7 +19,7 @@ st.set_page_config(
 
 ## Step 01 - Setup
 st.sidebar.title("California - Real Estate Agency 🏡")
-page = st.sidebar.selectbox("Select Page",["Introduction 📘","Visualization 📊", "Automated Report 📑"])
+page = st.sidebar.selectbox("Select Page",["Introduction 📘","Visualization 📊", "Automated Report(Not ready yet)📑"])
 
 
 #st.video("video.mp4")
