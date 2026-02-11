@@ -11,14 +11,14 @@ from ydata_profiling import ProfileReport
 #from streamlit_pandas_profiling import st_profile_report
 
 st.set_page_config(
-    page_title="Califronia Housing Dashboard 🏡",
+    page_title="Califronia Diabetes Data 🏡",
     layout="centered",
     page_icon="🏡",
 )
 
 
 ## Step 01 - Setup
-st.sidebar.title("California - Real Estate Agency 🏡")
+st.sidebar.title("California - Diabetes Agency 🏡")
 page = st.sidebar.selectbox("Select Page",["Introduction 📘","Visualization 📊", "Automated Report(Not ready yet)📑"])
 
 
