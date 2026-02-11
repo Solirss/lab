@@ -8,7 +8,7 @@ import numpy as np
 import seaborn as sns
 
 from ydata_profiling import ProfileReport
-from streamlit_pandas_profiling import st_profile_report
+#from streamlit_pandas_profiling import st_profile_report
 
 st.set_page_config(
     page_title="Califronia Housing Dashboard 🏡",
@@ -83,7 +83,7 @@ elif page == "Visualization 📊":
         ## render the plot in streamlit 
         st.pyplot(fig_corr)
 
-elif page == "Automated Report 📑":
+elif page == "Automated Report (Not ready yet)📑":
     st.subheader("03 Automated Report")
     if st.button("Generate Report"):
         with st.spinner("Generating report..."):
